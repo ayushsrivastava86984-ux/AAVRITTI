@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-brand-maroon: #701F35;
+  --color-brand-maroon-dark: #591728;
+  --color-brand-maroon-light: #F7EBEF;
+  --color-brand-cream: #F8F3E9;
+  --color-brand-cream-card: #FFFFFF;
+  --color-brand-green: #DDEBDD;
+  --color-brand-green-text: #1E4620;
+  --color-brand-dark: #292526;
+  --color-brand-secondary: #777174;
+  --color-brand-border: #E9E2DA;
+}
+
+:root {
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #292526;
+  background-color: #F8F3E9;
+}
+
+/* Tabular figures for all financial amounts and metrics */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar for clean dashboard feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F3E9;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9D0C5;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C4B9AC;
+}
+
+@media print {
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
