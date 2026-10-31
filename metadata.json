@@ -1,0 +1,6 @@
+{
+  "name": "AAVRITTI — Subscription Management & Recurring Billing",
+  "description": "Every Cycle. Every Invoice. Nothing Missed. Complete subscription management, recurring billing engine, duplicate shield, and invoice platform for modern businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
